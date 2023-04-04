@@ -241,7 +241,7 @@ header .logo {
 
 .projects .iconify {
   position: relative;
-  top: 6px;
+  /* top: 6px; */
 }
 
 .project-info {
