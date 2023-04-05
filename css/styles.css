@@ -220,7 +220,7 @@ header .logo {
 .img-style {
   /* height: 300px; */
   height: auto;
-  width: 100%;
+  width: auto;
   border-radius: 10px;
   float: left;
   margin: 0 2.5vw 0 0;
@@ -489,5 +489,9 @@ padding: 10px;
 
   .bio{
     font-size: larger;
+  }
+
+  .img-style{
+    width: 100%;
   }
 }
