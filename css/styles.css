@@ -219,7 +219,8 @@ header .logo {
 
 .img-style {
   /* height: 300px; */
-  height: clamp(190px, 21vw, 1000px);
+  height: auto;
+  width: 100%;
   border-radius: 10px;
   float: left;
   margin: 0 2.5vw 0 0;
@@ -463,7 +464,7 @@ padding: 10px;
 .footer-icons {
   position: absolute;
   /* float: right; */
-  right: -88vmax;
+  right: -85vw;
   display: inline-block;
 }
 
@@ -471,4 +472,22 @@ padding: 10px;
   margin: 10px;
   margin-top: 30px;
   margin-right: 30px;
+}
+
+@media all and (max-width: 824px) {
+  .footer-icons .iconify{
+    display: none;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .skills-content {
+    padding: 90px 50px;
+  }
+
+  .bio{
+    font-size: larger;
+  }
 }
