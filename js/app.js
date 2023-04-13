@@ -10,6 +10,24 @@ ScrollReveal().reveal('.education')
 ScrollReveal().reveal('.contact-boxes')
 ScrollReveal().reveal('.contact-me')
 
+const scrollToTopBtn = document.querySelector("#scrollToTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    scrollToTopBtn.classList.add("show");
+  } else {
+    scrollToTopBtn.classList.remove("show");
+  }
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+
 function Mail() {
   let name = $("#name").val();
   let email = $("#email").val();
