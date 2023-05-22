@@ -1,11 +1,9 @@
 ScrollReveal({ reset: true });
 ScrollReveal().reveal('.first-section')
 ScrollReveal().reveal('.my-projects')
-// ScrollReveal().reveal('.my-title')
 ScrollReveal().reveal('.project-item')
 ScrollReveal().reveal('.tech-skill')
 ScrollReveal().reveal('.skill-item')
-// ScrollReveal().reveal('.edu-box')
 ScrollReveal().reveal('.education')
 ScrollReveal().reveal('.contact-boxes')
 ScrollReveal().reveal('.contact-me')

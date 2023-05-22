@@ -30,7 +30,6 @@ header #particles-js canvas {
 }
 
 #skills {
-  /* height: clamp(500px, 43vw, 1000px); */
   height: auto;
   width: 100%;
   z-index: -1;
@@ -39,7 +38,6 @@ header #particles-js canvas {
 }
 
 #footer {
-  /* height: clamp(500px, 43vw, 1000px); */
   height: auto;
   width: 100%;
   z-index: -1;
@@ -218,7 +216,6 @@ header .logo {
 
 
 .img-style {
-  /* height: 300px; */
   height: auto;
   width: auto;
   border-radius: 10px;
@@ -242,7 +239,6 @@ header .logo {
 
 .projects .iconify {
   position: relative;
-  /* top: 6px; */
 }
 
 .project-info {
@@ -271,7 +267,6 @@ header .logo {
   bottom: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
 }
 
 .skills {
@@ -299,7 +294,6 @@ div.skill-item {
 }
 
 .icon-name {
-  /* Make the caption a block so it occupies its own line. */
   display: block;
   color: #dff6ff;
   font-weight: 600;
@@ -424,13 +418,11 @@ ul {
 }
 
 #footer canvas {
-  /* position: absolute; */
   top: 0;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 100px !important;
-  /* z-index: -1; */
 }
 
 .input-text:focus { border:2px solid #2f5d52; }
@@ -446,16 +438,8 @@ textarea {
 }
 
 .footer{
-  /* height: auto; */
   position: absolute;
-  /* overflow: hidden; */
 }
-
-/* .footer-flex{
-  display: flex;
-  position: relative;
-  justify-content: center;
-} */
 
 .footer-flex .logo{
 padding: 10px;
@@ -463,7 +447,6 @@ padding: 10px;
 
 .footer-icons {
   position: absolute;
-  /* float: right; */
   right: -85vw;
   display: inline-block;
 }
@@ -497,7 +480,6 @@ padding: 10px;
 
   div.skill-item{
     margin: 20px;
-    /* padding-left: 30px; */
   }
 }
 
